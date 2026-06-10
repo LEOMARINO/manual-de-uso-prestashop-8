@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual de Uso PrestaShop 8</title>
+  <meta name="description" content="Manual de uso de PrestaShop 8 en español">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    .app-name-link img {
+      max-width: 180px;
+    }
+    .sidebar-nav li > p {
+      font-weight: 600;
+      margin: 12px 0 4px;
+    }
+    .markdown-section {
+      max-width: 920px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Cargando manual...</div>
+  <script>
+    window.$docsify = {
+      name: 'Manual de Uso PrestaShop 8',
+      repo: '',
+      homepage: 'README.md',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      relativePath: true,
+      search: {
+        placeholder: 'Buscar en el manual',
+        noData: 'No se encontraron resultados',
+        depth: 6
+      },
+      copyCode: {
+        buttonText: 'Copiar',
+        errorText: 'Error',
+        successText: 'Copiado'
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+</body>
+</html>
